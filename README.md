@@ -21,3 +21,8 @@
     <img src="/models/okorarecat_rgba.png" alt="okorare cat">
 </a>
 </div>
+<div>
+<a rel="ar" href="/models/dubidabacat.usdz" class="centered-img">
+    <img src="/models/dubidabacat_rgba.png" alt="dubidaba cat">
+</a>
+</div>

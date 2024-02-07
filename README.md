@@ -11,8 +11,8 @@ iPhoneやVisionProのSafariでデモサイトを開くと、ARで猫ミームが
 ### 1. DreamGaussian
 [DreamGaussian](https://github.com/dreamgaussian/dreamgaussian)で猫ミーム画像を3D化
 
-Colabのコードをそのまま動かすとtrainingのところでエラるので、以下を実行する
-（cf. https://github.com/dreamgaussian/dreamgaussian/issues/10 ）
+Colabのコードをそのまま動かすとtrainingのところでエラるので、以下を実行する<br>
+（cf. https://github.com/dreamgaussian/dreamgaussian/issues/101 ）
 ```
 !sudo apt-get install cuda-cudart-11-7
 ```
@@ -27,7 +27,7 @@ Colabのコードをそのまま動かすとtrainingのところでエラるの�
 エクスポート形式として`.usd*`を選び、エクスポート名のところで拡張子を`.usdz`にする（デフォルトだと`.usdc`なので、`.usdz`に書き換える）
 
 ### 3. Webサイトに配置
-HTMLに次を書けば大丈夫
+HTMLに次を書けば大丈夫<br>
 （cf. https://developer.apple.com/jp/documentation/arkit/previewing_a_model_with_ar_quick_look/ ）
 ```
 <div>
